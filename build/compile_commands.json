@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build",
+  "command": "/usr/bin/c++  -I/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/include  -o CMakeFiles/AdventOfCode2024.dir/src/day1part1.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day1part1.cpp",
+  "file": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day1part1.cpp",
+  "output": "CMakeFiles/AdventOfCode2024.dir/src/day1part1.cpp.o"
+},
+{
+  "directory": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build",
+  "command": "/usr/bin/c++  -I/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/include  -o CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/main.cpp",
+  "file": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/main.cpp",
+  "output": "CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o"
+}
+]

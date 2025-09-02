@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/AdventOfCode2024.dir/link.d CMakeFiles/AdventOfCode2024.dir/src/day1part1.cpp.o CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o -o AdventOfCode2024

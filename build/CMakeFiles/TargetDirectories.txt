@@ -1,0 +1,3 @@
+/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build/CMakeFiles/AdventOfCode2024.dir
+/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build/CMakeFiles/edit_cache.dir
+/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build/CMakeFiles/rebuild_cache.dir
