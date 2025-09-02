@@ -14,8 +14,10 @@ int main (int argc, char *argv[]) {
   sortData();
 
   // Calculate the total distance
-  cout << "The total distance : " << calculateDistance();
+  cout << "The total distance : " << calculateDistance() << endl;
 
+  // Calculate the total distance
+  cout << "The total similarity : " << calculateSimilarity() << endl;
   
   return 0;
 }
