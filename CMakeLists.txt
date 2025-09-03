@@ -5,7 +5,7 @@ project(AdventOfCode2024)
 # Define a macro for the source 1 files
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(AdventOfCode2024 src/main.cpp src/day3.cpp)
+add_executable(AdventOfCode2024 src/main.cpp src/day4.cpp)
 
 # Add the include files
 target_include_directories(AdventOfCode2024 PRIVATE include)

@@ -86,30 +86,30 @@ CMakeFiles/AdventOfCode2024.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventOfCode2024.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/main.cpp -o CMakeFiles/AdventOfCode2024.dir/src/main.cpp.s
 
-CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o: CMakeFiles/AdventOfCode2024.dir/flags.make
-CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o: /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day3.cpp
-CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o: CMakeFiles/AdventOfCode2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o -MF CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o.d -o CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day3.cpp
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o: CMakeFiles/AdventOfCode2024.dir/flags.make
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o: /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o: CMakeFiles/AdventOfCode2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o -MF CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o.d -o CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp
 
-CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day3.cpp > CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.i
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp > CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.i
 
-CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day3.cpp -o CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.s
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp -o CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.s
 
 # Object files for target AdventOfCode2024
 AdventOfCode2024_OBJECTS = \
 "CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o" \
-"CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o"
+"CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o"
 
 # External object files for target AdventOfCode2024
 AdventOfCode2024_EXTERNAL_OBJECTS =
 
 AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o
-AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o
+AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o
 AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/build.make
 AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/compiler_depend.ts
 AdventOfCode2024: CMakeFiles/AdventOfCode2024.dir/link.txt

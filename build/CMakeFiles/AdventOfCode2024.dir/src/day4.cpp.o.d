@@ -1,9 +1,6 @@
-CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o: \
- /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/main.cpp \
- /usr/include/stdc-predef.h \
- /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/include/day4.h \
- /usr/include/c++/15.1.1/vector \
- /usr/include/c++/15.1.1/bits/requires_hosted.h \
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o: \
+ /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/15.1.1/cstdio \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -11,7 +8,21 @@ CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/15.1.1/pstl/pstl_config.h \
+ /usr/include/c++/15.1.1/pstl/pstl_config.h /usr/include/stdio.h \
+ /usr/include/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h \
+ /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/include/day4.h \
+ /usr/include/c++/15.1.1/vector \
+ /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/bits/stl_algobase.h \
  /usr/include/c++/15.1.1/bits/functexcept.h \
  /usr/include/c++/15.1.1/bits/exception_defines.h \
@@ -54,35 +65,27 @@ CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o: \
  /usr/include/c++/15.1.1/bits/vector.tcc \
  /usr/include/c++/15.1.1/bits/memory_resource.h \
  /usr/include/c++/15.1.1/cstddef \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/iostream \
- /usr/include/c++/15.1.1/ostream /usr/include/c++/15.1.1/bits/ostream.h \
- /usr/include/c++/15.1.1/ios /usr/include/c++/15.1.1/iosfwd \
- /usr/include/c++/15.1.1/bits/stringfwd.h \
- /usr/include/c++/15.1.1/bits/postypes.h /usr/include/c++/15.1.1/cwchar \
- /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
- /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
- /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/c++/15.1.1/exception \
+ /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/exception \
  /usr/include/c++/15.1.1/bits/exception_ptr.h \
  /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/15.1.1/typeinfo \
  /usr/include/c++/15.1.1/bits/nested_exception.h \
+ /usr/include/c++/15.1.1/fstream /usr/include/c++/15.1.1/istream \
+ /usr/include/c++/15.1.1/ios /usr/include/c++/15.1.1/iosfwd \
+ /usr/include/c++/15.1.1/bits/stringfwd.h \
+ /usr/include/c++/15.1.1/bits/postypes.h /usr/include/c++/15.1.1/cwchar \
+ /usr/include/wchar.h /usr/include/bits/wchar.h \
+ /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/c++/15.1.1/bits/char_traits.h \
  /usr/include/c++/15.1.1/bits/localefwd.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/15.1.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15.1.1/cctype \
- /usr/include/ctype.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/endian.h /usr/include/bits/endianness.h \
- /usr/include/c++/15.1.1/bits/ios_base.h \
+ /usr/include/ctype.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/c++/15.1.1/bits/ios_base.h \
  /usr/include/c++/15.1.1/ext/atomicity.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
@@ -125,12 +128,7 @@ CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o: \
  /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
  /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/15.1.1/bits/std_abs.h /usr/include/c++/15.1.1/cstdio \
- /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
- /usr/include/bits/types/__fpos64_t.h \
- /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/c++/15.1.1/cerrno \
+ /usr/include/c++/15.1.1/bits/std_abs.h /usr/include/c++/15.1.1/cerrno \
  /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
@@ -151,5 +149,11 @@ CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o: \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/15.1.1/bits/locale_facets.tcc \
  /usr/include/c++/15.1.1/bits/basic_ios.tcc \
- /usr/include/c++/15.1.1/bits/ostream.tcc /usr/include/c++/15.1.1/istream \
- /usr/include/c++/15.1.1/bits/istream.tcc
+ /usr/include/c++/15.1.1/ostream /usr/include/c++/15.1.1/bits/ostream.h \
+ /usr/include/c++/15.1.1/bits/ostream.tcc \
+ /usr/include/c++/15.1.1/bits/istream.tcc \
+ /usr/include/c++/15.1.1/bits/codecvt.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/15.1.1/bits/fstream.tcc \
+ /usr/include/c++/15.1.1/iostream

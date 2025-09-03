@@ -136,29 +136,29 @@ AdventOfCode2024/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/build
 .PHONY : AdventOfCode2024/fast
 
-src/day3.o: src/day3.cpp.o
-.PHONY : src/day3.o
+src/day4.o: src/day4.cpp.o
+.PHONY : src/day4.o
 
 # target to build an object file
-src/day3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o
-.PHONY : src/day3.cpp.o
+src/day4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o
+.PHONY : src/day4.cpp.o
 
-src/day3.i: src/day3.cpp.i
-.PHONY : src/day3.i
+src/day4.i: src/day4.cpp.i
+.PHONY : src/day4.i
 
 # target to preprocess a source file
-src/day3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.i
-.PHONY : src/day3.cpp.i
+src/day4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.i
+.PHONY : src/day4.cpp.i
 
-src/day3.s: src/day3.cpp.s
-.PHONY : src/day3.s
+src/day4.s: src/day4.cpp.s
+.PHONY : src/day4.s
 
 # target to generate assembly for a file
-src/day3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.s
-.PHONY : src/day3.cpp.s
+src/day4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AdventOfCode2024.dir/build.make CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.s
+.PHONY : src/day4.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -194,9 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AdventOfCode2024"
-	@echo "... src/day3.o"
-	@echo "... src/day3.i"
-	@echo "... src/day3.s"
+	@echo "... src/day4.o"
+	@echo "... src/day4.i"
+	@echo "... src/day4.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

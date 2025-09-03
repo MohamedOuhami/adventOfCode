@@ -3,7 +3,7 @@ AdventOfCode2024: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o \
-  CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o \
+  CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libm.so \
@@ -40,7 +40,7 @@ AdventOfCode2024: \
 
 CMakeFiles/AdventOfCode2024.dir/src/main.cpp.o:
 
-CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o:
+CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libstdc++.so:
 

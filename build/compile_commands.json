@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/build",
-  "command": "/usr/bin/c++  -I/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/include  -o CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day3.cpp",
-  "file": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day3.cpp",
-  "output": "CMakeFiles/AdventOfCode2024.dir/src/day3.cpp.o"
+  "command": "/usr/bin/c++  -I/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/include  -o CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o -c /home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp",
+  "file": "/home/v01d/Documents/Programming/PersonalProjects/adventOfCode/src/day4.cpp",
+  "output": "CMakeFiles/AdventOfCode2024.dir/src/day4.cpp.o"
 }
 ]

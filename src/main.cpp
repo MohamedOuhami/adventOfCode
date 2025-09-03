@@ -1,18 +1,17 @@
+#include <day4.h>
 #include <iostream>
-#include <day3.h>
 
 using namespace std;
 
-int main (int argc, char *argv[]) {
-  
-  cout << "======= Advent Of Code Day 3 ======" << endl;
+int main(int argc, char *argv[]) {
 
-  string data = read_data();
+  cout << "======= Advent Of Code Day 4 ======" << endl;
 
-  // calculateMuls(data);
+  vector<vector<char>> data = parseData();
 
-  cout << "The total mul is : " << calculateMuls(data) << endl;
+  int xmasCount = calculateXMAS(data);
 
- 
+  cout << "Total X-MAS : " << xmasCount << endl;
+
   return 0;
 }
