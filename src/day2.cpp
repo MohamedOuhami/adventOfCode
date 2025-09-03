@@ -1,6 +1,5 @@
 #include <cstdlib>
 #include <day2.h>
-#include <exception>
 #include <fstream>
 #include <iostream>
 #include <sstream>
